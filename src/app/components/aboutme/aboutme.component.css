@@ -1,0 +1,58 @@
+.containerAboutme {
+    height: 100%;
+    margin: 13% 10% 0% 10%;
+}
+
+.imageCuadrada {
+    width: 250px;
+    height: 250px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../../../assets/img/yo_mejorado_cuadrado.png);
+    
+}
+.title{
+    margin-left: 30%;
+}
+.textContainer{
+    margin-left: 5%;
+    color: whitesmoke;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.span{
+    font-size: 1.3rem;
+    margin-left: 5%;
+}
+
+a{
+    color: whitesmoke;
+  text-decoration: none;
+}
+
+a:link {
+    color: whitesmoke; /* establece el color del enlace no visitado en morado */
+    text-decoration: none; /* elimina el subrayado */
+  }
+  
+  a:hover {
+    color: whitesmoke; /* establece el color del enlace cuando se coloca el cursor sobre él en rojo */
+    text-decoration: underline; /* establece un subrayado al colocar el cursor sobre el enlace */
+  }
+  
+  a:active {
+    color: whitesmoke; /* establece el color del enlace cuando se hace clic en él en azul */
+    text-decoration: none; /* elimina el subrayado */
+  }
+  
+  a:visited {
+    color: whitesmoke; /* establece el color del enlace visitado en verde */
+    text-decoration: none; /* elimina el subrayado */
+  }
+  .containerDescription{
+    margin-left: 5%;
+    border: 3px solid whitesmoke;
+    border-image: linear-gradient(to right, whitesmoke 10%, #951f05,#951f05,#951f05)1;
+    border-radius: 15px;
+  }

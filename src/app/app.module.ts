@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { AngularFullpageModule } from '@fullpage/angular-fullpage';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,6 +18,7 @@ import { AngularFullpageModule } from '@fullpage/angular-fullpage';
     HeaderComponent,
     SkillsComponent,
     ExperienciaComponent,
+    AboutmeComponent,
 
     
   ],
