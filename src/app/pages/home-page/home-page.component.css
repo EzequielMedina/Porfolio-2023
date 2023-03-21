@@ -19,3 +19,11 @@ main{
     text-align: -webkit-center;
     overflow: hidden;
 }
+
+.path{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

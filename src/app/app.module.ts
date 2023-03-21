@@ -8,7 +8,7 @@ import { FirstSectionComponent } from './components/first-section/first-section.
 import { HeaderComponent } from './components/header/header.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
-
+import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,12 +16,14 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     FirstSectionComponent,
     HeaderComponent,
     SkillsComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFullpageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

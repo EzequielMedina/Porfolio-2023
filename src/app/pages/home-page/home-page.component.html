@@ -1,21 +1,19 @@
 <main>
-    <div class="">
-        <app-first-section></app-first-section>
-    </div>
-    <div class="containerSkill">
-        <svg _ngcontent-hih-c20="" _ngcontent-ryb-c17="" viewBox="0 0 951 150" preserveAspectRatio="none"
-            style="height: 700px;width: 100%;position: absolute;left: 0;">
-            <path _ngcontent-hih-c20="" d="M -5 0 L 500 0 L 400 338 L -5 336" _ngcontent-ryb-c17=""
-                style="stroke: none; fill: #951f05;"></path>
-        </svg>
-        <app-skills></app-skills>
-    </div>
-    <div class="containerSkill">
-        <svg _ngcontent-hih-c20="" _ngcontent-ryb-c17="" viewBox="0 0 1044 150" preserveAspectRatio="none"
-            style="height: 700px;width: 100%;position: absolute;left: 0;">
-            <path _ngcontent-hih-c20="" d="M -5 0 L 500 0 L 400 338 L -5 336" _ngcontent-ryb-c17=""
-                style="stroke: none; fill: #951f05;"></path>
-        </svg>
-        <app-experiencia></app-experiencia>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="path">
+        <path d="M -5 0 L 500 0 L 400 338 L -5 336" style="stroke: none; fill: #951f05;">
+
+        </path>
+
+    </svg>
+    <div fullpage id="fullpage" [options]="config" (ref)="getRef($event)">
+        <div class="section">
+            <app-first-section></app-first-section>
+        </div>
+        <div class="containerSkill section">
+            <app-skills></app-skills>
+        </div>
+        <div class="containerSkill section">
+            <app-experiencia></app-experiencia>
+        </div>
     </div>
 </main>

@@ -1,1 +1,17 @@
-<p>experiencia works!</p>
+<div class="div">
+    <h1 class="title">Proyectos</h1>
+    <div class="containerCards">
+        <div class="row">
+            <div class="col-lg-4" *ngFor="let item of listExperiences">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img class="card-img-top" src={{item.image}} alt="Card image cap">
+                    <div class="card-body" style="font-weight: 700!important;">
+                        <h5 class="card-title" style="font-weight: 700!important;">{{item.title}}</h5>
+                        <p class="card-text">{{item.description}}</p>
+                        <a href="{{item.link}}" target="_blank" class="btn btn-primary">{{item.nameButton}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

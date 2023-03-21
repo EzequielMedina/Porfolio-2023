@@ -1,0 +1,18 @@
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.btn{
+    background-color: #951f05;
+}
+.div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.title{
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
